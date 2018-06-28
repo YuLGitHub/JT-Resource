@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jt.manage.mapper.ItemMapper">
+	<!-- 说明：
+		1.namespace是映射文件的唯一标识，不允许重复
+		2.在配置时应该和mybatis的客户端（Mapper接口文件）路径一致
+		3.映射文件中的ID应该和接口方法名称一一对应
+	 -->
+	
+	<!-- sql语句全部小写，在Linux下大写会出问题  -->
+	<select id="findItemAll" resultType="item">
+		select * from tb_item order by updated desc
+	</select>
+	
+	<!-- 查询记录总数 -->
+	<select id="findItemCount" resultType="int">
+		select count(*)  from tb_item
+	</select>
+	
+	<!-- 实现分页查询 -->
+	<select id="findItemByPage" resultType="item">
+		select * from tb_item order by updated desc limit #{begin},#{rows}
+	</select>
+	
+	<!-- 根据商品分类ID查询名称 -->
+	<select id="findItemCatName" resultType="string">
+		select name from tb_item_cat where id=#{itemcatid}
+	</select>
+	
+	<!-- 批量修改状态 -->
+	<update id="updateStatus">
+		update tb_item set status = #{status} where id in(
+			<foreach collection="ids" item="id" separator=",">
+				#{id}
+			</foreach>
+		)
+	</update>	
+	
+	
+</mapper>

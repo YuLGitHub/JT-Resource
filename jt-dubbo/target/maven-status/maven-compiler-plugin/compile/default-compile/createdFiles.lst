@@ -1,0 +1,8 @@
+com\jt\duboo\pojo\OrderItem.class
+com\jt\duboo\pojo\Cart.class
+com\jt\dubbo\search\DubboSearchService.class
+com\jt\duboo\pojo\Item.class
+com\jt\duboo\pojo\OrderShipping.class
+com\jt\dubbo\order\DubboOrderService.class
+com\jt\duboo\pojo\Order.class
+com\jt\dubbo\cart\DubboCartService.class

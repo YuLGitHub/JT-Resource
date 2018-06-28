@@ -1,0 +1,8 @@
+127.0.0.1 - - [12/Mar/2018:16:56:53 +0800] "GET /web/itemcat/all?callback=category.getDataService HTTP/1.0" 200 - http-bio-8091-exec-1 2886
+127.0.0.1 - - [12/Mar/2018:17:32:26 +0800] "GET /web/itemcat/all?callback=category.getDataService HTTP/1.0" 200 - http-bio-8091-exec-1 1373
+127.0.0.1 - - [12/Mar/2018:17:41:18 +0800] "GET /web/itemcat/all?callback=category.getDataService HTTP/1.0" 200 26081 http-bio-8091-exec-1 713
+127.0.0.1 - - [12/Mar/2018:17:45:26 +0800] "GET /web/itemcat/all?callback=category.getDataService HTTP/1.0" 200 26081 http-bio-8091-exec-1 2003
+127.0.0.1 - - [12/Mar/2018:17:51:13 +0800] "GET /web/itemcat/all?callback=category.getDataService HTTP/1.0" 200 26199 http-bio-8091-exec-1 1953
+127.0.0.1 - - [12/Mar/2018:17:52:04 +0800] "GET /web/itemcat/all?callback=category.getDataService HTTP/1.0" 200 26199 http-bio-8091-exec-2 296
+127.0.0.1 - - [12/Mar/2018:21:11:04 +0800] "GET /web/itemcat/all?callback=category.getDataService HTTP/1.0" 200 26199 http-bio-8091-exec-1 2054
+127.0.0.1 - - [12/Mar/2018:21:22:32 +0800] "GET /web/itemcat/all?callback=category.getDataService HTTP/1.0" 200 26200 http-bio-8091-exec-1 2178

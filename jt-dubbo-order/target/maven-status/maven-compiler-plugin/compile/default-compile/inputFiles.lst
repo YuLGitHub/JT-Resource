@@ -1,0 +1,6 @@
+E:\Documents\workspace-jt\jt-dubbo-order\src\main\java\com\jt\order\service\OrderServiceImpl.java
+E:\Documents\workspace-jt\jt-dubbo-order\src\main\java\com\jt\order\mapper\OrderMapper.java
+E:\Documents\workspace-jt\jt-dubbo-order\src\main\java\com\jt\order\mapper\OrderItemMapper.java
+E:\Documents\workspace-jt\jt-dubbo-order\src\main\java\com\jt\order\mapper\OrderShippingMapper.java
+E:\Documents\workspace-jt\jt-dubbo-order\src\main\java\com\jt\order\job\PaymentOrderJob.java
+E:\Documents\workspace-jt\jt-dubbo-order\src\main\java\com\jt\order\rabbit\service\OrderServiceImpl.java
